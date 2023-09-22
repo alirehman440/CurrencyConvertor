@@ -57,6 +57,7 @@ class RatesFragment : Fragment() {
 
     private fun getRates(amount:Double) {
         progressBar.visibility = View.VISIBLE
+        currencyList.clear()
         CoroutineScope(Dispatchers.Main).launch {
            //
             val response = EndPoints.baseClient!!.currentRate()
