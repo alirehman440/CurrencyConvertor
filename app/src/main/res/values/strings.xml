@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Currency Convertor</string>
+
+    <string-array name="ConvertedCurrency">
+        <item>USD</item>
+        <item>PKR</item>
+        <item>CHF</item>
+    </string-array>
+
+
+</resources>
